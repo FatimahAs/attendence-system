@@ -1,17 +1,19 @@
-import { Schema, Document, model} from 'mongoose'
+import { Schema, Document, model, models} from 'mongoose'
 
-export interface ClassDocument extends Document {
+export interface ParticipantDocument extends Document {
     id: string,
     classId: string,
     userId:  String,
+    role:  'teacher' | 'student';
 }
 
-const ClassSchema = new Schema<ClassDocument> ({
+const ParticipantSchema = new Schema<ParticipantDocument> ({
     id: {type: String},
     classId:{type: String},
     userId: {type: String},
+    role: { type: String, enum: ['teacher', 'student'], required: true }
 },
 {timestamps: true})
 
- const ClassModel = model <ClassDocument>('Class', ClassSchema)
-export default ClassModel
+const ParticipantModel = models.Participant || model<ParticipantDocument>('Participant', ParticipantSchema);
+export default ParticipantModel

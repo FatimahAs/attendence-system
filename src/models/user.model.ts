@@ -1,11 +1,11 @@
-import { Schema, Document, ObjectId, model } from "mongoose";
+import { Schema, Document, model,models } from "mongoose";
 import bcrypt from 'bcryptjs'
 
 export interface UserDocument extends Document {
   email: string
   name: string
   password: string
-  role: 'admin' | 'principle' | 'teacher' | 'student'
+  role: 'admin' | 'principal' | 'teacher' | 'student' // default student
   createdAt: Date
   updatedAt: Date
  comparePassword(candidatePassword: string): Promise<boolean>
@@ -16,7 +16,7 @@ const UserSchema = new Schema<UserDocument>(
         email:{type: String, unique: true, required: true},
         name:{type: String, required: true},
         password:{type: String,required: true},
-        role:{type: String, enum: ['admin' , 'principle' , 'teacher' , 'student'], default: 'student', required: true}
+        role:{type: String, enum: ['admin' , 'principal' , 'teacher' , 'student'], default: 'student', required: true}
        },
         {timestamps: true }
 )
@@ -36,5 +36,5 @@ UserSchema.methods.comparePassword = async function (candidatePassword: string):
   return bcrypt.compare(candidatePassword, this.passwordHash);
 };
 
- const UserCollection = model <UserDocument>('User', UserSchema)
+const UserCollection = models.User || model<UserDocument>('User', UserSchema);
  export default UserCollection

@@ -1,4 +1,4 @@
-import { Schema, Document, model} from 'mongoose'
+import { Schema, Document, model,models} from 'mongoose'
 
 export interface ClassDocument extends Document {
     id: string,
@@ -19,5 +19,5 @@ const ClassSchema = new Schema<ClassDocument> ({
 },
 {timestamps: true})
 
- const ClassModel = model <ClassDocument>('Class', ClassSchema)
+ const ClassModel = models.Class || model<ClassDocument>('Class', ClassSchema);
 export default ClassModel
