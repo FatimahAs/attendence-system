@@ -5,9 +5,9 @@ import { authorized } from "../middleware/auth.middleware";
 
 const router = Router()
 
-router.post('/signup',authorized, signUp)//students
-router.post('/signin',authorized, signIn)
-router.post('/signout', signOut)
+router.get('/class/:id/attendance', signOut) //import from attendance controllers
+
+router.post('/class/:id/attendance', signOut) //import from attendance controllers
 
 export default router; 
 
