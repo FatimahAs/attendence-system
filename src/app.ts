@@ -3,23 +3,24 @@ import express, { Express, Request, Response, NextFunction } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
-import cookieParser from 'cookie-parser';
 import logger from './utils/logger';
 import { dev, port } from './utils/helpers';
-import historyRoutes from './routes/history.routes';
-import weatherRoutes from './routes/weather.routes';
+import userRoutes from './routes/user.route';
+import classRoutes from './routes/class.route';
 import authRoutes from './routes/auth.routes';
-import { OK, INTERNAL_SERVER_ERROR } from './utils/http-status';
+import attendanceRoutes from './routes/attendance.route';
+import leaveRoutes from './routes/leaves.route';
+import dashboardRoutes from './routes/dashboard.route';
+import { OK, INTERNAL_SERVER_ERROR} from './utils/http-status';
 import { connect } from './config/database';
 import { AppError } from './utils/errors';
-import UserCollection from './models/user.model';
 
 
 dotenv.config();
 
 
 const app: Express = express();
-const allowedOrigins = ['http://localhost:3000', 'http://localhost:5173', 'https://weather-c3fd.onrender.com'];
+const allowedOrigins = ['http://localhost:3000', 'http://localhost:5173', 'https://weather-c3fd.onrender.com'];//put backend-server page url
 
 app.use(cors({
   origin: (origin, callback) => {
@@ -39,49 +40,19 @@ app.use(morgan('tiny', {
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cookieParser());
 
 app.use('/api/auth', authRoutes);
-
-app.use('/api/history', historyRoutes);
-app.use('/api/weather', weatherRoutes);
+app.use('/api/classes', classRoutes);
+app.use('/api/users', userRoutes);
+app.use('/api/attendance', attendanceRoutes);
+app.use('/api/leaves', leaveRoutes);
+app.use('/api/dashboard', dashboardRoutes);
 
 app.get('/', (req: Request, res: Response) => {
   res
     .status(OK)
-    .json({ message: 'weather API - Welcome!' });
+    .json({ message: 'attendance API - Welcome!' });
 });
-
-app.get('/user', (req: Request, res: Response) => {
-
-      const token = req.headers.authorization?.split(' ')[2]
-      if (!token){
-        res.status(UNAUTHORIZED).json({message: 'invalid token'})
-        return
-      }
-     const decoded = verifyToken(token)
-     if(!decoded){
-        res.status(UNAUTHORIZED).json({message: 'invalid token'})
-        return
-     }
-        if(decoded.role === 'admin'){
-       const getAllUsers = UserCollection.find()
-        return res.status(OK).json({message: "all users fetched successfully", data: getAllUsers})
-     }else if(decoded.role === 'principle'){
-        
-       const getPricipleUsers = UserCollection.find({$or: [{role: 'teacher'},{role: 'student'}]})
-      return res.status(OK).json({message: 'invalid token', data: getPricipleUsers})
-    }else if(decoded.role === 'teacher'){
-        res.status(UNAUTHORIZED).json({message: 'invalid token'})
-        return
-    }else if(decoded.role === 'student'){
-        res.status(UNAUTHORIZED).json({message: 'invalid token'})
-        return}
-  res
-    .status(OK)
-    .json({ message: 'weather API - Welcome!' });
-});
-
 
 app.use((err: Error | AppError, req: Request, res: Response, next: NextFunction): void => {
   logger.error('Error:', err.message);
