@@ -1,0 +1,465 @@
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T08:39:30.108Z"}
+{"level":"info","message":"GET / 200 41 - 3.972 ms","timestamp":"2025-06-17T08:40:18.305Z"}
+{"level":"info","message":"GET /listId 404 145 - 2.682 ms","timestamp":"2025-06-17T08:41:38.981Z"}
+{"level":"info","message":"GET / 200 41 - 1.044 ms","timestamp":"2025-06-17T08:42:02.177Z"}
+{"level":"info","message":"GET /api/lists 200 26 - 0.585 ms","timestamp":"2025-06-17T08:42:45.316Z"}
+{"level":"info","message":"GET / 200 41 - 0.327 ms","timestamp":"2025-06-17T08:43:01.290Z"}
+{"level":"info","message":"GET /api/lists/:listId/items 404 42 - 1.474 ms","timestamp":"2025-06-17T08:43:04.454Z"}
+{"level":"info","message":"POST /createList 404 150 - 3.527 ms","timestamp":"2025-06-17T08:45:50.507Z"}
+{"level":"info","message":"POST /api/createList 404 154 - 0.618 ms","timestamp":"2025-06-17T08:46:57.244Z"}
+{"level":"info","message":"POST /api/list 404 148 - 4.841 ms","timestamp":"2025-06-17T08:47:05.676Z"}
+{"level":"info","message":"POST / 404 140 - 0.852 ms","timestamp":"2025-06-17T08:47:57.615Z"}
+{"level":"info","message":"POST / 404 140 - 0.918 ms","timestamp":"2025-06-17T08:50:02.861Z"}
+{"level":"info","message":"GET /api/createList 404 153 - 0.622 ms","timestamp":"2025-06-17T08:51:26.220Z"}
+{"level":"info","message":"POST /api/createList 404 154 - 2.157 ms","timestamp":"2025-06-17T08:51:33.164Z"}
+{"level":"info","message":"POST /createList 404 150 - 3.359 ms","timestamp":"2025-06-17T08:52:01.473Z"}
+{"level":"info","message":"POST / 404 140 - 0.690 ms","timestamp":"2025-06-17T08:53:05.115Z"}
+{"level":"info","message":"POST //api/lists 404 150 - 1.262 ms","timestamp":"2025-06-17T09:12:01.988Z"}
+{"level":"info","message":"POST /api/lists 400 97 - 1.955 ms","timestamp":"2025-06-17T09:12:07.593Z"}
+{"level":"info","message":"GET /api/lists 200 26 - 0.462 ms","timestamp":"2025-06-17T09:12:14.990Z"}
+{"level":"info","message":"GET /api/lists/:listId/items 404 42 - 1.864 ms","timestamp":"2025-06-17T09:12:57.598Z"}
+{"level":"info","message":"GET /api/lists/listId/items 404 42 - 0.447 ms","timestamp":"2025-06-17T09:13:04.473Z"}
+{"level":"info","message":"POST /api/lists/listId/items 400 97 - 1.228 ms","timestamp":"2025-06-17T09:13:15.773Z"}
+{"level":"info","message":"GET /api/lists/listId/items 404 42 - 0.422 ms","timestamp":"2025-06-17T09:13:30.590Z"}
+{"level":"info","message":"GET /api/listId/items 404 155 - 0.596 ms","timestamp":"2025-06-17T09:13:43.280Z"}
+{"level":"info","message":"GET /api/items 404 148 - 3.476 ms","timestamp":"2025-06-17T09:13:49.170Z"}
+{"level":"info","message":"POST /api/items 404 149 - 0.460 ms","timestamp":"2025-06-17T09:13:54.773Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T09:16:54.515Z"}
+{"level":"info","message":"POST /api/lists 400 97 - 4.183 ms","timestamp":"2025-06-17T09:20:56.841Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T09:27:35.932Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T09:28:12.110Z"}
+{"level":"info","message":"POST /api/lists 400 97 - 5.662 ms","timestamp":"2025-06-17T09:28:12.984Z"}
+{"level":"info","message":"POST /api/lists 400 97 - 0.614 ms","timestamp":"2025-06-17T09:28:14.893Z"}
+{"level":"info","message":"POST /api/lists 201 204 - 29.844 ms","timestamp":"2025-06-17T09:28:41.158Z"}
+{"level":"info","message":"GET /api/01JXYKG9DW7C84XGARC33EYRYG 404 169 - 8.740 ms","timestamp":"2025-06-17T09:29:03.360Z"}
+{"level":"info","message":"GET /api/lists/01JXYKG9DW7C84XGARC33EYRYG/items/ 200 26 - 9.187 ms","timestamp":"2025-06-17T09:30:04.879Z"}
+{"level":"info","message":"GET /api/lists 200 206 - 0.647 ms","timestamp":"2025-06-17T09:30:12.822Z"}
+{"level":"info","message":"GET /api/lists/list-id-here 404 42 - 0.613 ms","timestamp":"2025-06-17T09:30:20.450Z"}
+{"level":"info","message":"PUT /api/lists/list-id-here 404 42 - 1.198 ms","timestamp":"2025-06-17T09:30:38.032Z"}
+{"level":"info","message":"DELETE /api/lists/list-id-here 404 42 - 1.110 ms","timestamp":"2025-06-17T09:30:48.589Z"}
+{"level":"info","message":"GET /api/lists/01JXYKG9DW7C84XGARC33EYRYG 200 215 - 0.625 ms","timestamp":"2025-06-17T09:30:59.186Z"}
+{"level":"info","message":"GET / 304 - - 3.845 ms","timestamp":"2025-06-17T09:36:27.568Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T04:38:40.689Z"}
+{"level":"info","message":"POST /api/carmake 201 172 - 27.263 ms","timestamp":"2025-06-18T04:38:41.728Z"}
+{"level":"info","message":"POST /api/cardealer 201 193 - 3.389 ms","timestamp":"2025-06-18T04:42:58.817Z"}
+{"level":"info","message":"POST /api/car 201 295 - 2.241 ms","timestamp":"2025-06-18T04:46:01.861Z"}
+{"level":"info","message":"GET /api/car 200 297 - 2.997 ms","timestamp":"2025-06-18T04:46:32.257Z"}
+{"level":"info","message":"POST /api/car 201 295 - 1.883 ms","timestamp":"2025-06-18T04:46:43.680Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T15:03:05.506Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T15:04:12.882Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T15:04:55.359Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T15:22:49.723Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T15:22:51.413Z"}
+{"level":"info","message":"All collections dropped","timestamp":"2025-06-18T15:22:51.885Z"}
+{"level":"info","message":"POST /api/cardealer 201 200 - 173.197 ms","timestamp":"2025-06-18T15:30:17.045Z"}
+{"level":"info","message":"POST /api/cardealer 201 199 - 126.183 ms","timestamp":"2025-06-18T15:33:33.145Z"}
+{"level":"info","message":"GET /api/cardealer 200 378 - 118.058 ms","timestamp":"2025-06-18T15:33:42.133Z"}
+{"level":"info","message":"POST /api/carmake 201 174 - 246.129 ms","timestamp":"2025-06-18T15:36:00.953Z"}
+{"level":"info","message":"POST /api/carmake 201 178 - 136.912 ms","timestamp":"2025-06-18T15:36:26.028Z"}
+{"level":"info","message":"GET /api/carmake 200 331 - 374.174 ms","timestamp":"2025-06-18T15:36:32.466Z"}
+{"level":"info","message":"POST /api/carmake 201 175 - 105.998 ms","timestamp":"2025-06-18T15:40:05.256Z"}
+{"level":"info","message":"POST /api/car 404 49 - 185.845 ms","timestamp":"2025-06-18T15:41:42.074Z"}
+{"level":"info","message":"POST /api/car 404 49 - 100.041 ms","timestamp":"2025-06-18T15:42:13.422Z"}
+{"level":"info","message":"POST /api/car 404 49 - 102.905 ms","timestamp":"2025-06-18T15:42:33.090Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T15:44:38.590Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T15:44:40.064Z"}
+{"level":"info","message":"All collections dropped","timestamp":"2025-06-18T15:44:40.667Z"}
+{"level":"info","message":"POST /api/car 404 49 - 1640.635 ms","timestamp":"2025-06-18T15:44:40.883Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T15:48:19.339Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T15:48:20.785Z"}
+{"level":"info","message":"All collections dropped","timestamp":"2025-06-18T15:48:21.480Z"}
+{"level":"info","message":"POST /api/car 404 49 - 135.470 ms","timestamp":"2025-06-18T15:48:24.205Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T15:49:40.456Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T15:49:41.692Z"}
+{"level":"info","message":"All collections dropped","timestamp":"2025-06-18T15:49:42.149Z"}
+{"level":"info","message":"POST /api/car 404 49 - 203.428 ms","timestamp":"2025-06-18T15:51:46.789Z"}
+{"level":"info","message":"POST /api/cardealer 201 199 - 160.456 ms","timestamp":"2025-06-18T15:52:47.533Z"}
+{"level":"info","message":"POST /api/car 404 46 - 218.718 ms","timestamp":"2025-06-18T15:53:40.912Z"}
+{"level":"info","message":"POST /api/carmake 201 178 - 201.015 ms","timestamp":"2025-06-18T15:57:02.162Z"}
+{"level":"info","message":"POST /api/car 201 298 - 333.389 ms","timestamp":"2025-06-18T15:57:14.646Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T16:00:00.522Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T16:00:02.436Z"}
+{"level":"info","message":"All collections dropped","timestamp":"2025-06-18T16:00:02.902Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T16:01:30.541Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T16:01:31.815Z"}
+{"level":"info","message":"All collections dropped","timestamp":"2025-06-18T16:01:32.250Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T16:15:33.398Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T16:15:34.744Z"}
+{"level":"info","message":"POST /api/carmake 201 178 - 632.010 ms","timestamp":"2025-06-18T16:16:14.831Z"}
+{"level":"info","message":"POST /api/carmake 201 174 - 787.485 ms","timestamp":"2025-06-18T16:16:35.935Z"}
+{"level":"info","message":"POST /api/carmake 201 175 - 105.319 ms","timestamp":"2025-06-18T16:16:46.816Z"}
+{"level":"info","message":"POST /api/carmake 201 179 - 106.844 ms","timestamp":"2025-06-18T16:17:36.104Z"}
+{"level":"info","message":"POST /api/cardealer 201 199 - 103.631 ms","timestamp":"2025-06-18T16:18:22.569Z"}
+{"level":"info","message":"POST /api/cardealer 201 199 - 122.896 ms","timestamp":"2025-06-18T16:18:41.823Z"}
+{"level":"info","message":"POST /api/cardealer 201 199 - 182.777 ms","timestamp":"2025-06-18T16:18:53.667Z"}
+{"level":"info","message":"POST /api/car 201 298 - 331.406 ms","timestamp":"2025-06-18T16:19:52.612Z"}
+{"level":"info","message":"GET /api/cardealer 200 553 - 106.906 ms","timestamp":"2025-06-18T16:20:28.396Z"}
+{"level":"info","message":"GET /api/carmake 200 639 - 119.439 ms","timestamp":"2025-06-18T16:20:50.845Z"}
+{"level":"info","message":"POST /api/car 201 296 - 308.035 ms","timestamp":"2025-06-18T16:21:07.172Z"}
+{"level":"info","message":"POST /api/car 201 297 - 399.988 ms","timestamp":"2025-06-18T16:21:50.276Z"}
+{"level":"info","message":"GET /api/car 400 310 - 8.031 ms","timestamp":"2025-06-18T16:21:54.187Z"}
+{"level":"info","message":"GET /api/car 400 310 - 7.029 ms","timestamp":"2025-06-18T16:22:05.686Z"}
+{"level":"info","message":"GET /api/car 400 310 - 0.659 ms","timestamp":"2025-06-18T16:22:29.460Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T16:35:06.357Z"}
+{"level":"info","message":"GET /api/car 400 298 - 30.634 ms","timestamp":"2025-06-18T16:35:07.914Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T16:35:08.655Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T16:36:58.432Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T16:36:59.678Z"}
+{"level":"info","message":"GET /api/car 400 116 - 167.260 ms","timestamp":"2025-06-18T16:37:05.439Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T16:37:31.189Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T16:37:32.491Z"}
+{"level":"info","message":"GET /api/car 200 847 - 139.872 ms","timestamp":"2025-06-18T16:37:37.478Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T16:38:39.230Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T16:38:40.671Z"}
+{"level":"info","message":"POST /api/carmake 400 99 - 14.566 ms","timestamp":"2025-06-18T16:50:03.310Z"}
+{"level":"info","message":"GET /api/carmake 200 639 - 144.782 ms","timestamp":"2025-06-18T16:50:13.875Z"}
+{"level":"info","message":"POST /api/carmake 201 186 - 191.629 ms","timestamp":"2025-06-18T16:51:55.527Z"}
+{"level":"info","message":"GET /api/cardealer 200 553 - 107.334 ms","timestamp":"2025-06-18T16:52:22.604Z"}
+{"level":"info","message":"POST /api/cardealer 201 198 - 114.074 ms","timestamp":"2025-06-18T16:52:59.352Z"}
+{"level":"info","message":"GET /api/car 200 847 - 126.352 ms","timestamp":"2025-06-18T16:53:21.017Z"}
+{"level":"info","message":"POST /api/car 201 299 - 624.567 ms","timestamp":"2025-06-18T16:55:57.356Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T16:56:27.705Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T16:56:29.187Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T16:57:44.137Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T16:57:45.337Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T05:09:18.224Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T05:09:19.610Z"}
+{"level":"info","message":"POST /auth/signup 201 62 - 531.992 ms","timestamp":"2025-06-20T05:09:26.742Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T05:23:07.789Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T05:23:09.509Z"}
+{"level":"info","message":"POST /auth/signup 201 249 - 477.742 ms","timestamp":"2025-06-20T05:23:21.602Z"}
+{"level":"info","message":"POST /auth/signin 401 31 - 103.374 ms","timestamp":"2025-06-20T05:24:55.020Z"}
+{"level":"info","message":"POST /auth/signout 200 59 - 1.035 ms","timestamp":"2025-06-20T05:26:18.388Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 211.541 ms","timestamp":"2025-06-20T05:27:46.343Z"}
+{"level":"info","message":"POST /auth/signout 200 59 - 4.088 ms","timestamp":"2025-06-20T05:28:17.293Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 6.778 ms","timestamp":"2025-06-20T05:29:59.568Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 1.136 ms","timestamp":"2025-06-20T05:32:14.535Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 4.349 ms","timestamp":"2025-06-20T05:33:37.019Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 1.164 ms","timestamp":"2025-06-20T05:33:49.689Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T05:39:16.290Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T05:39:17.811Z"}
+{"level":"info","message":"GET /weather 404 146 - 25.519 ms","timestamp":"2025-06-20T05:40:26.144Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 6.331 ms","timestamp":"2025-06-20T05:40:32.649Z"}
+{"level":"info","message":"GET /weather 404 146 - 3.191 ms","timestamp":"2025-06-20T05:42:45.490Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 2.079 ms","timestamp":"2025-06-20T05:42:54.478Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 0.951 ms","timestamp":"2025-06-20T05:43:15.035Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 0.672 ms","timestamp":"2025-06-20T05:45:40.560Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 3.798 ms","timestamp":"2025-06-20T05:45:44.083Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T05:49:04.088Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T05:49:05.337Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 27.269 ms","timestamp":"2025-06-20T05:49:11.032Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 1.318 ms","timestamp":"2025-06-20T05:49:41.847Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 39.834 ms","timestamp":"2025-06-20T06:04:08.572Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 1.288 ms","timestamp":"2025-06-20T06:04:31.749Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T06:06:33.005Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T06:06:34.461Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 31.606 ms","timestamp":"2025-06-20T06:06:40.095Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T06:08:27.706Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T06:08:28.957Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 32.266 ms","timestamp":"2025-06-20T06:08:39.995Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T06:10:11.893Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T06:10:13.327Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T06:11:18.128Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T06:11:19.277Z"}
+{"level":"info","message":"GET /history?skip=0&limit=10&sort=-requestedAt&from=2025-06-01&to=2025-06-19 404 146 - 88.118 ms","timestamp":"2025-06-20T06:14:34.099Z"}
+{"level":"info","message":"GET /history?skip=0&limit=10&sort=-requestedAt&from=2025-06-01&to=2025-06-19 404 146 - 2.790 ms","timestamp":"2025-06-20T06:15:24.749Z"}
+{"level":"info","message":"GET /history?skip=0&limit=10&sort=-requestedAt&from=2025-06-01&to=2025-06-19 404 146 - 5.261 ms","timestamp":"2025-06-20T06:19:03.237Z"}
+{"level":"info","message":"GET /history?skip=0&limit=10&sort=-requestedAt&from=2025-06-01&to=2025-06-19 404 146 - 5.771 ms","timestamp":"2025-06-20T06:19:06.492Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 404 146 - 9.452 ms","timestamp":"2025-06-20T06:20:32.857Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 404 146 - 35.157 ms","timestamp":"2025-06-20T09:53:00.949Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T09:54:10.396Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T09:54:11.869Z"}
+{"level":"info","message":"GET /api/weather?lat=24.7136&lon=46.6753 404 150 - 29.632 ms","timestamp":"2025-06-20T09:54:12.447Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T09:55:24.778Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T09:55:25.950Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T09:59:01.643Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T09:59:02.922Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 404 146 - 20.486 ms","timestamp":"2025-06-20T09:59:04.885Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T10:05:12.575Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T10:05:14.125Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 25.273 ms","timestamp":"2025-06-20T10:05:15.336Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 3.891 ms","timestamp":"2025-06-20T10:06:48.650Z"}
+{"level":"info","message":"GET /signup 404 145 - 10.482 ms","timestamp":"2025-06-20T10:08:37.948Z"}
+{"level":"info","message":"POST /signup 404 146 - 1.569 ms","timestamp":"2025-06-20T10:08:43.117Z"}
+{"level":"info","message":"POST /signup 404 146 - 0.799 ms","timestamp":"2025-06-20T10:09:19.819Z"}
+{"level":"info","message":"POST /signup 404 146 - 5.159 ms","timestamp":"2025-06-20T10:10:20.498Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T10:10:53.790Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T10:10:55.075Z"}
+{"level":"info","message":"POST /signup 404 146 - 30.728 ms","timestamp":"2025-06-20T10:11:00.462Z"}
+{"level":"info","message":"POST /signup 404 146 - 1.207 ms","timestamp":"2025-06-20T10:11:05.713Z"}
+{"level":"info","message":"POST /signup 404 146 - 1.597 ms","timestamp":"2025-06-20T10:12:42.566Z"}
+{"level":"info","message":"POST /signup 404 146 - 0.678 ms","timestamp":"2025-06-20T10:12:46.201Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T10:13:03.747Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T10:13:05.040Z"}
+{"level":"info","message":"POST /signup 404 146 - 24.023 ms","timestamp":"2025-06-20T10:13:11.723Z"}
+{"level":"info","message":"POST /signup 404 146 - 1.622 ms","timestamp":"2025-06-20T10:13:34.818Z"}
+{"level":"info","message":"POST /auth/signup 201 249 - 353.135 ms","timestamp":"2025-06-20T10:13:52.629Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T10:15:04.177Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T10:15:05.360Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 200 511 - 711.084 ms","timestamp":"2025-06-20T10:15:09.717Z"}
+{"level":"info","message":"GET /history?skip=0&limit=10&sort=-requestedAt&from=2025-06-01&to=2025-06-19 200 782 - 266.096 ms","timestamp":"2025-06-20T10:16:02.085Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T10:22:07.989Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T10:22:09.492Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T10:22:40.849Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T10:22:42.091Z"}
+{"level":"info","message":"GET / 200 36 - 21.931 ms","timestamp":"2025-06-20T10:27:01.999Z"}
+{"level":"info","message":"GET / 304 - - 4.567 ms","timestamp":"2025-06-20T10:28:04.562Z"}
+{"level":"info","message":"GET / 304 - - 0.617 ms","timestamp":"2025-06-20T10:28:10.297Z"}
+{"level":"info","message":"GET /index 404 144 - 59.770 ms","timestamp":"2025-06-20T10:28:20.995Z"}
+{"level":"info","message":"GET /index.html 404 149 - 0.443 ms","timestamp":"2025-06-20T10:28:26.323Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T10:29:07.329Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T10:29:45.649Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T10:29:47.199Z"}
+{"level":"info","message":"GET /index 404 144 - 5.015 ms","timestamp":"2025-06-20T10:29:50.564Z"}
+{"level":"info","message":"GET /index 404 144 - 1.978 ms","timestamp":"2025-06-20T10:29:54.246Z"}
+{"level":"info","message":"GET /index 404 144 - 1.738 ms","timestamp":"2025-06-20T10:29:55.975Z"}
+{"level":"info","message":"GET /index.html 404 149 - 0.836 ms","timestamp":"2025-06-20T10:30:02.683Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T10:32:20.824Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T10:32:22.257Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 43 - 6.092 ms","timestamp":"2025-06-20T10:34:40.929Z"}
+{"level":"info","message":"GET /weather?lat=40.7136&lon=20.6753 200 506 - 747.604 ms","timestamp":"2025-06-20T10:38:30.014Z"}
+{"level":"info","message":"GET /history?skip=0&limit=10&sort=-requestedAt&from=2025-05-01&to=2025-06-20 200 1558 - 279.200 ms","timestamp":"2025-06-20T10:40:16.215Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T10:42:41.957Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T10:42:43.201Z"}
+{"level":"info","message":"POST /weather?lat=18.2164&lon=42.5053 404 147 - 125.510 ms","timestamp":"2025-06-20T10:55:21.291Z"}
+{"level":"info","message":"POST /weather?lat=18.2164&lon=42.5053 404 147 - 3.979 ms","timestamp":"2025-06-20T10:56:15.081Z"}
+{"level":"info","message":"POST /weather?lat=18.2164&lon=42.50 404 147 - 2.693 ms","timestamp":"2025-06-20T10:57:28.857Z"}
+{"level":"info","message":"POST /weather?lat=24.7136&lon=46.6753 404 147 - 1.060 ms","timestamp":"2025-06-20T10:59:55.937Z"}
+{"level":"info","message":"POST /weather/weather?lat=24.7136&lon=46.6753 404 155 - 9.898 ms","timestamp":"2025-06-20T11:01:19.253Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T11:01:44.822Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T11:01:46.291Z"}
+{"level":"info","message":"POST /weather/weather?lat=24.7136&lon=46.6753 404 155 - 72.923 ms","timestamp":"2025-06-20T11:01:53.114Z"}
+{"level":"info","message":"POST /weather/weather?lat=24.7136&lon=46.6753 404 155 - 4.561 ms","timestamp":"2025-06-20T11:01:58.253Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T11:02:35.085Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T11:02:36.428Z"}
+{"level":"info","message":"POST /weather?lat=24.7136&lon=46.6753 404 147 - 24.895 ms","timestamp":"2025-06-20T11:02:46.273Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T11:03:24.006Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T11:03:25.434Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T11:03:50.389Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T11:03:51.609Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T11:04:22.911Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T11:04:24.217Z"}
+{"level":"info","message":"POST /weather/w?lat=24.7136&lon=46.6753 404 149 - 23.217 ms","timestamp":"2025-06-20T11:04:30.317Z"}
+{"level":"info","message":"POST /weather/w?lat=24.7136&lon=46.6753 404 149 - 6.035 ms","timestamp":"2025-06-20T11:04:38.432Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T11:05:14.670Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T11:05:15.915Z"}
+{"level":"info","message":"GET /weather?lat=18.2164&lon=42.5053 200 497 - 742.108 ms","timestamp":"2025-06-20T11:05:56.239Z"}
+{"level":"info","message":"GET /history?skip=0&limit=10&sort=-requestedAt&from=2025-06-01&to=2025-06-19 200 1705 - 262.859 ms","timestamp":"2025-06-20T11:07:06.511Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T11:10:54.842Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T11:11:04.238Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T11:11:05.444Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T11:11:43.155Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T11:11:44.457Z"}
+{"level":"info","message":"GET /history?skip=0&limit=10&sort=-requestedAt&from=2025-05-01&to=2025-06-20 200 1090 - 327.238 ms","timestamp":"2025-06-20T11:12:41.991Z"}
+{"level":"info","message":"GET /weather?lat=21.3891&lon=39.8579 401 39 - 7.519 ms","timestamp":"2025-06-20T11:14:03.430Z"}
+{"level":"info","message":"POST /auth/signup 201 249 - 374.245 ms","timestamp":"2025-06-20T11:15:24.340Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 218.121 ms","timestamp":"2025-06-20T11:15:47.900Z"}
+{"level":"info","message":"GET /weather?lat=21.3891&lon=39.8579 401 39 - 2.037 ms","timestamp":"2025-06-20T11:17:07.216Z"}
+{"level":"info","message":"GET /weather?lat=21.3891&lon=39.8579 401 39 - 1.768 ms","timestamp":"2025-06-20T11:17:40.091Z"}
+{"level":"info","message":"GET /weather?lat=21.3891&lon=39.8579 401 43 - 1.796 ms","timestamp":"2025-06-20T11:18:11.457Z"}
+{"level":"info","message":"GET /weather?lat=21.3891&lon=39.8579 401 39 - 2.174 ms","timestamp":"2025-06-20T11:18:43.993Z"}
+{"level":"info","message":"POST /auth/signup 201 249 - 320.099 ms","timestamp":"2025-06-20T11:19:18.262Z"}
+{"level":"info","message":"GET /weather?lat=21.3891&lon=39.8579 200 508 - 1435.191 ms","timestamp":"2025-06-20T11:19:42.936Z"}
+{"level":"info","message":"GET /history?skip=0&limit=10&sort=-requestedAt&from=2025-06-01&to=2025-06-19 200 779 - 225.027 ms","timestamp":"2025-06-20T11:20:29.250Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T11:21:20.197Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T11:21:21.673Z"}
+{"level":"info","message":"GET /history?skip=0&limit=10&sort=-requestedAt&from=2025-06-01&to=2025-06-19 200 779 - 270.414 ms","timestamp":"2025-06-20T11:21:40.447Z"}
+{"level":"info","message":"GET /weather?lat=24.5247&lon=39.5692 200 496 - 1301.578 ms","timestamp":"2025-06-20T11:22:24.270Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-22T10:17:17.781Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-22T13:30:39.319Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T13:30:42.205Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-22T13:40:12.250Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T13:40:13.906Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-22T13:45:02.822Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T13:45:04.280Z"}
+{"level":"info","message":"POST /auth/signup 500 111 - 4.766 ms","timestamp":"2025-06-22T13:45:17.303Z"}
+{"level":"info","message":"POST /auth/signup 500 111 - 0.622 ms","timestamp":"2025-06-22T13:45:45.631Z"}
+{"level":"info","message":"POST /auth/signup 500 111 - 0.479 ms","timestamp":"2025-06-22T13:46:08.887Z"}
+{"level":"info","message":"POST /auth/signup 500 111 - 0.588 ms","timestamp":"2025-06-22T13:46:10.071Z"}
+{"level":"info","message":"POST /auth/signup 500 111 - 1.081 ms","timestamp":"2025-06-22T13:46:11.335Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-22T13:46:34.540Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T13:46:36.027Z"}
+{"level":"info","message":"POST /auth/signup 500 111 - 9.768 ms","timestamp":"2025-06-22T13:46:40.995Z"}
+{"level":"info","message":"POST /auth/signup 500 111 - 0.929 ms","timestamp":"2025-06-22T13:46:42.432Z"}
+{"level":"info","message":"POST /auth/signup 400 36 - 251.366 ms","timestamp":"2025-06-22T13:49:03.047Z"}
+{"level":"info","message":"POST /auth/signup 201 249 - 388.094 ms","timestamp":"2025-06-22T13:49:15.331Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 228.386 ms","timestamp":"2025-06-22T13:50:19.331Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 53.103 ms","timestamp":"2025-06-22T13:53:03.815Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 0.491 ms","timestamp":"2025-06-22T13:53:15.027Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 0.373 ms","timestamp":"2025-06-22T13:53:31.788Z"}
+{"level":"info","message":"GET /weather?lat=21.4858&lon=39.1925 401 39 - 3.900 ms","timestamp":"2025-06-22T13:53:51.259Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 1364.020 ms","timestamp":"2025-06-22T14:37:15.109Z"}
+{"level":"info","message":"GET /weather?lat=21.4858&lon=39.1925 401 39 - 23.999 ms","timestamp":"2025-06-22T14:37:34.770Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 274.019 ms","timestamp":"2025-06-22T14:45:57.479Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 263.053 ms","timestamp":"2025-06-22T14:46:16.657Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 31.171 ms","timestamp":"2025-06-22T14:46:30.012Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 6.799 ms","timestamp":"2025-06-22T14:47:45.533Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 2.508 ms","timestamp":"2025-06-22T14:47:46.195Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 2.968 ms","timestamp":"2025-06-22T14:47:47.076Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 259.394 ms","timestamp":"2025-06-22T14:50:16.556Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 5.830 ms","timestamp":"2025-06-22T14:50:37.067Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 1.603 ms","timestamp":"2025-06-22T14:50:37.752Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 1.615 ms","timestamp":"2025-06-22T14:50:39.849Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 207.694 ms","timestamp":"2025-06-22T14:53:15.771Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 2.087 ms","timestamp":"2025-06-22T14:53:15.820Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 200.830 ms","timestamp":"2025-06-22T14:53:19.534Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 25.416 ms","timestamp":"2025-06-22T14:53:19.567Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 214.900 ms","timestamp":"2025-06-22T14:53:20.749Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 2.853 ms","timestamp":"2025-06-22T14:53:20.758Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 207.391 ms","timestamp":"2025-06-22T14:53:24.557Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 8.820 ms","timestamp":"2025-06-22T14:53:24.579Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 197.457 ms","timestamp":"2025-06-22T14:53:26.743Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 2.971 ms","timestamp":"2025-06-22T14:53:26.752Z"}
+{"level":"info","message":"POST /auth/signup 201 249 - 494.903 ms","timestamp":"2025-06-22T14:53:59.303Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 214.676 ms","timestamp":"2025-06-22T14:54:08.919Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 194.901 ms","timestamp":"2025-06-22T14:54:30.826Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 18.818 ms","timestamp":"2025-06-22T14:54:30.852Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 191.857 ms","timestamp":"2025-06-22T14:54:54.019Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 1.994 ms","timestamp":"2025-06-22T14:54:54.040Z"}
+{"level":"info","message":"GET /weather?lat=24&lon=46 401 39 - 27.808 ms","timestamp":"2025-06-22T14:59:21.886Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 19.586 ms","timestamp":"2025-06-22T15:01:42.526Z"}
+{"level":"info","message":"POST /auth/signup 201 249 - 568.065 ms","timestamp":"2025-06-22T15:02:36.801Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 202.572 ms","timestamp":"2025-06-22T15:02:49.923Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 4.421 ms","timestamp":"2025-06-22T15:03:30.016Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 2.805 ms","timestamp":"2025-06-22T15:03:32.229Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-22T15:05:40.543Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T15:05:42.133Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 11.544 ms","timestamp":"2025-06-22T15:05:50.323Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 17.450 ms","timestamp":"2025-06-22T15:05:54.588Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 565.894 ms","timestamp":"2025-06-22T15:06:08.999Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 16.981 ms","timestamp":"2025-06-22T15:06:48.417Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 14.794 ms","timestamp":"2025-06-22T15:06:51.217Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-22T15:09:56.386Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T15:09:57.597Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 13.622 ms","timestamp":"2025-06-22T15:10:03.735Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 1.997 ms","timestamp":"2025-06-22T15:10:05.860Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 43 - 20.281 ms","timestamp":"2025-06-22T15:14:43.044Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 71.116 ms","timestamp":"2025-06-22T15:14:53.570Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-22T15:20:46.460Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T15:20:47.851Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 5.859 ms","timestamp":"2025-06-22T15:20:50.584Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 2.497 ms","timestamp":"2025-06-22T15:20:52.325Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-22T15:21:58.880Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T15:22:00.665Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 7.740 ms","timestamp":"2025-06-22T15:22:31.056Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-22T15:22:53.881Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T15:22:55.124Z"}
+{"level":"info","message":"POST /auth/signup 201 62 - 401.290 ms","timestamp":"2025-06-22T15:23:54.342Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 245.350 ms","timestamp":"2025-06-22T15:24:13.744Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 19.436 ms","timestamp":"2025-06-22T15:24:37.786Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 2.207 ms","timestamp":"2025-06-22T15:24:39.249Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 2.273 ms","timestamp":"2025-06-22T15:24:42.050Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-22T15:27:28.146Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T15:27:29.481Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 6.215 ms","timestamp":"2025-06-22T15:27:38.699Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 282.713 ms","timestamp":"2025-06-22T15:28:04.651Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 206.395 ms","timestamp":"2025-06-22T15:28:07.322Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 219.162 ms","timestamp":"2025-06-22T15:28:10.261Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 2.839 ms","timestamp":"2025-06-22T15:28:29.462Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-22T17:59:39.537Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T17:59:40.848Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 234.837 ms","timestamp":"2025-06-22T17:59:45.431Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 3.494 ms","timestamp":"2025-06-22T18:00:05.091Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 52.625 ms","timestamp":"2025-06-22T18:03:12.130Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 12.127 ms","timestamp":"2025-06-22T18:03:15.714Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 5.431 ms","timestamp":"2025-06-22T18:03:32.196Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 1.631 ms","timestamp":"2025-06-22T18:04:01.329Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 10.157 ms","timestamp":"2025-06-22T18:08:05.529Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 2.068 ms","timestamp":"2025-06-22T18:08:10.951Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 17.184 ms","timestamp":"2025-06-22T18:12:41.457Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-22T18:16:32.322Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T18:16:33.549Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 23.396 ms","timestamp":"2025-06-22T18:16:39.208Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 280.351 ms","timestamp":"2025-06-22T18:17:42.920Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 82.251 ms","timestamp":"2025-06-22T18:19:09.768Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 2.243 ms","timestamp":"2025-06-22T18:19:37.096Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-22T18:21:17.491Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T18:21:18.745Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-22T18:22:25.836Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T18:22:26.993Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-22T18:27:13.446Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T18:27:14.724Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 315.543 ms","timestamp":"2025-06-22T18:28:20.065Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 21.978 ms","timestamp":"2025-06-22T18:29:28.788Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 2.209 ms","timestamp":"2025-06-22T18:29:49.375Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-22T18:48:37.405Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T18:48:38.688Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 9.173 ms","timestamp":"2025-06-22T18:48:43.973Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 2.591 ms","timestamp":"2025-06-22T18:48:46.183Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 8.688 ms","timestamp":"2025-06-22T18:48:47.810Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-22T18:52:31.749Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-22T18:52:33.033Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 9.680 ms","timestamp":"2025-06-22T18:52:42.558Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 5.034 ms","timestamp":"2025-06-22T18:52:47.246Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 2.810 ms","timestamp":"2025-06-22T18:52:48.817Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 1.868 ms","timestamp":"2025-06-22T18:52:53.477Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 2.508 ms","timestamp":"2025-06-22T18:52:57.760Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 2.250 ms","timestamp":"2025-06-22T18:53:04.024Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 2.298 ms","timestamp":"2025-06-22T18:53:08.414Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 1.776 ms","timestamp":"2025-06-22T18:53:45.944Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 1.900 ms","timestamp":"2025-06-22T18:55:30.348Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 1.715 ms","timestamp":"2025-06-22T18:57:18.904Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 137.657 ms","timestamp":"2025-06-23T01:14:37.594Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 1734.291 ms","timestamp":"2025-06-23T01:14:48.481Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 6.810 ms","timestamp":"2025-06-23T01:15:13.107Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 2.447 ms","timestamp":"2025-06-23T01:15:16.881Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 8.465 ms","timestamp":"2025-06-23T01:16:32.830Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-23T01:18:33.545Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-23T01:18:34.921Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-23T01:19:42.248Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-23T01:19:43.475Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-23T01:20:09.020Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-23T01:20:10.389Z"}
+{"level":"info","message":"POST /auth/signup 201 249 - 374.375 ms","timestamp":"2025-06-23T01:20:24.049Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 280.849 ms","timestamp":"2025-06-23T01:20:41.320Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 200 517 - 638.028 ms","timestamp":"2025-06-23T01:20:57.229Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 2.155 ms","timestamp":"2025-06-23T01:21:19.163Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 7.666 ms","timestamp":"2025-06-23T01:21:23.667Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 1.744 ms","timestamp":"2025-06-23T01:21:51.243Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 200 517 - 205.794 ms","timestamp":"2025-06-23T01:22:08.931Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-23T01:22:47.661Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-23T01:22:48.969Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-23T01:23:12.272Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-23T01:23:13.807Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 265.960 ms","timestamp":"2025-06-23T01:23:17.695Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 423.332 ms","timestamp":"2025-06-23T01:23:20.672Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 401 39 - 10.881 ms","timestamp":"2025-06-23T01:23:37.386Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 200 517 - 236.278 ms","timestamp":"2025-06-23T01:23:43.438Z"}
+{"level":"info","message":"POST /auth/signin 200 207 - 232.274 ms","timestamp":"2025-06-23T01:24:28.099Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 401 39 - 4.763 ms","timestamp":"2025-06-23T01:24:28.134Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-06-23T01:26:19.219Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-23T01:26:20.918Z"}
+{"level":"info","message":"POST /auth/signin 200 188 - 239.249 ms","timestamp":"2025-06-23T01:26:25.218Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 200 517 - 297.577 ms","timestamp":"2025-06-23T01:26:41.776Z"}
+{"level":"info","message":"GET /weather?lat=24.71&lon=46.68 200 517 - 206.715 ms","timestamp":"2025-06-23T01:26:44.541Z"}
+{"level":"info","message":"POST /auth/signin 200 188 - 192.088 ms","timestamp":"2025-06-23T01:26:54.014Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 200 517 - 202.399 ms","timestamp":"2025-06-23T01:26:54.223Z"}
+{"level":"info","message":"POST /auth/signin 200 188 - 193.629 ms","timestamp":"2025-06-23T01:27:26.806Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 304 - - 205.794 ms","timestamp":"2025-06-23T01:27:27.018Z"}
+{"level":"info","message":"GET /weather?lat=21.4858&lon=39.1925 200 519 - 8683.046 ms","timestamp":"2025-06-23T01:41:53.782Z"}
+{"level":"info","message":"GET /weather?lat=30.0444&lon=31.2357 200 505 - 673.588 ms","timestamp":"2025-06-23T01:45:34.347Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 304 - - 216.146 ms","timestamp":"2025-06-23T01:45:42.456Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 304 - - 229.983 ms","timestamp":"2025-06-23T01:47:21.351Z"}
+{"level":"info","message":"GET /weather?lat=21.4858&lon=39.1925 304 - - 219.141 ms","timestamp":"2025-06-23T01:47:24.759Z"}
+{"level":"info","message":"POST /auth/signup 201 249 - 408.394 ms","timestamp":"2025-06-23T01:48:56.851Z"}
+{"level":"info","message":"POST /auth/signin 401 31 - 199.970 ms","timestamp":"2025-06-23T01:49:11.915Z"}
+{"level":"info","message":"POST /auth/signin 401 31 - 103.752 ms","timestamp":"2025-06-23T01:49:20.035Z"}
+{"level":"info","message":"POST /auth/signin 401 31 - 104.691 ms","timestamp":"2025-06-23T01:49:21.685Z"}
+{"level":"info","message":"POST /auth/signin 401 31 - 101.660 ms","timestamp":"2025-06-23T01:49:29.763Z"}
+{"level":"info","message":"POST /auth/signin 401 31 - 107.906 ms","timestamp":"2025-06-23T01:49:54.874Z"}
+{"level":"info","message":"POST /auth/signin 401 31 - 105.531 ms","timestamp":"2025-06-23T01:49:55.816Z"}
+{"level":"info","message":"POST /auth/signin 401 31 - 1206.482 ms","timestamp":"2025-06-23T01:50:12.044Z"}
+{"level":"info","message":"POST /auth/signin 401 31 - 2525.676 ms","timestamp":"2025-06-23T01:50:19.038Z"}
+{"level":"info","message":"POST /auth/signin 401 31 - 1619.888 ms","timestamp":"2025-06-23T01:50:19.042Z"}
+{"level":"info","message":"POST /auth/signin 200 188 - 373.562 ms","timestamp":"2025-06-23T01:50:28.331Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 304 - - 208.918 ms","timestamp":"2025-06-23T01:50:34.251Z"}
+{"level":"info","message":"GET /weather?lat=21.4858&lon=39.1925 304 - - 309.969 ms","timestamp":"2025-06-23T01:50:41.954Z"}
+{"level":"info","message":"GET /weather?lat=30.0444&lon=31.2357 304 - - 199.783 ms","timestamp":"2025-06-23T01:50:48.718Z"}
+{"level":"info","message":"GET /weather?lat=21.3891&lon=39.8579 200 513 - 803.123 ms","timestamp":"2025-06-23T01:54:46.583Z"}
+{"level":"info","message":"GET /weather?lat=24.5247&lon=39.5692 200 494 - 1232.053 ms","timestamp":"2025-06-23T01:54:54.039Z"}
+{"level":"info","message":"GET /weather?lat=24.7136&lon=46.6753 200 498 - 1223.061 ms","timestamp":"2025-06-23T01:55:00.504Z"}
+{"level":"info","message":"GET /weather?lat=21.4858&lon=39.1925 304 - - 214.804 ms","timestamp":"2025-06-23T01:55:04.041Z"}
+{"level":"info","message":"GET /weather?lat=18.2164&lon=42.5053 200 485 - 1265.801 ms","timestamp":"2025-06-23T01:55:09.709Z"}
+{"level":"info","message":"GET /weather?lat=26.4207&lon=50.0888 200 495 - 664.023 ms","timestamp":"2025-06-23T01:55:14.620Z"}
+{"level":"info","message":"GET /weather?lat=18.2164&lon=42.5053 304 - - 202.909 ms","timestamp":"2025-06-23T01:56:21.595Z"}
+{"level":"info","message":"GET /weather?lat=24.5247&lon=39.5692 304 - - 302.505 ms","timestamp":"2025-06-23T02:05:47.142Z"}
